@@ -12,5 +12,5 @@ initSocket(httpServer);
 
  
 httpServer.listen(process.env.PORT,()=>{
-  console.log("server started at port ",process.env.PORT)
+  console.log("server started at port 3000 ",process.env.PORT)
 })      
