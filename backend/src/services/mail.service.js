@@ -11,7 +11,7 @@ const transporter = nodemailer.createTransport({
 transporter 
   .verify()
   .then(() => {
-    console.log("Transporter is ready");
+    console.log("Transporter is ready"); 
   })
   .catch((err) => {
     console.log("Email transporter varification failed", err);
